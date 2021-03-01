@@ -1,0 +1,44 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,700;0,800;1,400&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.cs142-main-topbar-buffer {
+  margin-top: 70px;
+}
+
+.cs142-main-grid-item {
+  /* height: calc(200vh - 85px); */
+  min-height: calc(100vh - 85px);
+  padding: 10px;
+}
+.panel-change-advanced{
+  display: flex;
+  position: absolute;
+  z-index: 100000;
+  height: 25px;
+  width: auto;
+  background: white;
+  opacity: 0.9;
+  top: 20px;
+  right: 200px;
+}
+#chkAdvanced{
+  height: 20px;
+  width: 20px;
+}
+.arrow-disabled{
+  opacity: 0.5;
+}
+.img-comments{
+  max-width:1000px;
+}
