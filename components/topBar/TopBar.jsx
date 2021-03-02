@@ -14,7 +14,7 @@ class TopBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Raksh N.",
+      name: "Changed",
       version: "",
       _id: 0,
       userObj: {}

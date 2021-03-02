@@ -8,7 +8,6 @@
     "build": "node_modules/.bin/webpack -d",
     "build:w": "node_modules/.bin/webpack -d --watch",
     "lint": "node_modules/.bin/eslint webServer.js loadDatabase.js *.jsx components/*/*.jsx lib/*.js",
-    "dev": "npm run build:w & nodemon webServer.js & node webServer.js"
   },
   "author": "Mendel Rosenblum <mendel@cs.stanford.edu> ",
   "license": "ISC",
